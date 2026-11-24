@@ -103,8 +103,8 @@ the Redis cache.
 Clone the repository:
 
 ```bash
-git clone https://github.com/leshakovalevskiy2002/internship-task.git
-cd internship-task
+git clone https://github.com/leshakovalevskiy2002/transactions_service.git
+cd transactions_service
 ```
 
 Then choose one of the workflows below:
@@ -329,7 +329,7 @@ Import the collection into Postman:
 - **File:** [`docs/postman/transactions-service.postman_collection.json`](docs/postman/transactions-service.postman_collection.json)
 - **Via link:** Postman → **Import → Link** →
   ```
-  https://raw.githubusercontent.com/leshakovalevskiy2002/internship-task/main/docs/postman/transactions-service.postman_collection.json
+  https://raw.githubusercontent.com/leshakovalevskiy2002/transactions_service/main/docs/postman/transactions-service.postman_collection.json
   ```
   
 ## Tests
@@ -380,7 +380,7 @@ Domain rules (users, transactions, analytics) are described in
 ## Project Structure
 
 ```
-internship-task/
+transactions_service/
 ├── .github/
 │   └── workflows/        # CI pipelines
 ├── alembic/              # migrations
